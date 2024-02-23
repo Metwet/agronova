@@ -1,0 +1,75 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #515151;
+}
+
+a {
+  text-decoration: none;
+  color: #515151;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+/* header */
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 7px 5px;
+}
+
+.header__logo {
+  flex: 1;
+}
+
+.header__nav {
+  display: flex;
+  gap: 54px;
+  margin-right: 96px;
+}
+
+.nav__link:hover {
+  color: #cca05d;
+}
+
+/* welcome */
+
+.welcome__block {
+  background: url("../img/farmer.png");
+  background-size: cover;
+  /* background-position: center center; */
+  height: 90vh;
+  max-height: 538px;
+}
+
+.welcome__container {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    1.87deg,
+    rgba(81, 81, 81, 0.2) 49.78%,
+    rgba(81, 81, 81, 0) 98.21%
+  );
+}
+
+.welcome__title {
+  margin: 0;
+  padding-top: 148px;
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 93px;
+  text-transform: uppercase;
+  text-shadow: 0 4px 4px #000000;
+}
+
+@media screen and (max-width: 600px) {
+}
