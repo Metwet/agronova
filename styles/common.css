@@ -40,7 +40,7 @@ a {
   color: #cca05d;
 }
 
-/* welcome */
+/* welcome block */
 
 .welcome__block {
   background: url("../img/farmer.png");
@@ -71,16 +71,16 @@ a {
   text-shadow: 0 4px 4px #000000;
 }
 
-/* services */
+/* services block */
 
 .block__title {
-  padding: 105px 0 67px;
+  padding: 105px 0 0;
   font-size: 36px;
   font-weight: 800;
 }
 
 .services__grid {
-  /* max-width: 1050px; */
+  margin-top: 67px;
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
@@ -120,6 +120,39 @@ a {
   font-weight: 300;
   color: #ffffff;
   text-transform: uppercase;
+}
+
+/* export block */
+
+.export__content {
+  position: relative;
+}
+
+.export__map {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.export__title {
+  padding-top: 190px;
+  max-width: 304px;
+  color: #515151;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.export__subtitle {
+  margin-top: 20px;
+  max-width: 394px;
+  color: #515151;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.countries {
+  color: #CCA05D;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 600px) {
