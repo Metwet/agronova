@@ -9,10 +9,10 @@ a {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1360px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 5px;
+  padding: 0 15px;
 }
 
 /* header */
@@ -23,7 +23,7 @@ a {
   justify-content: space-between;
   font-size: 15px;
   font-weight: 300;
-  padding: 7px 5px;
+  padding: 7px 15px;
 }
 
 .header__logo {
@@ -69,6 +69,57 @@ a {
   line-height: 93px;
   text-transform: uppercase;
   text-shadow: 0 4px 4px #000000;
+}
+
+/* services */
+
+.block__title {
+  padding: 105px 0 67px;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.services__grid {
+  /* max-width: 1050px; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.service {
+  width: 325px;
+  height: 281px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.service1 {
+  background: url("../img/bg_service1.jpg");
+}
+.service2 {
+  background: url("../img/bg_service2.jpg");
+}
+.service3 {
+  background: url("../img/bg_service3.jpg");
+}
+.service4 {
+  background: url("../img/bg_service4.jpg");
+}
+.service5 {
+  background: url("../img/bg_service5.jpg");
+}
+.service6 {
+  background: url("../img/bg_service6.jpg");
+}
+
+.service__title {
+  font-size: 25px;
+  font-weight: 300;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 600px) {
