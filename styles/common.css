@@ -84,6 +84,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
+  justify-content: space-between;
 }
 
 .service {
@@ -151,8 +152,37 @@ a {
 }
 
 .countries {
-  color: #CCA05D;
+  color: #cca05d;
   font-weight: 500;
+}
+
+/* contacts block */
+
+.contacts__grid {
+  margin: 97px 0 75px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.contact {
+  width: 100%;
+  max-width: 277px;
+  display: flex;
+  gap: 30px;
+}
+
+.contact__title {
+  font-size: 19px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.contact__subtitle {
+  font-size: 15px;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 600px) {
