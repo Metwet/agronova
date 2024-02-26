@@ -91,11 +91,34 @@ a {
 .service {
   width: 325px;
   height: 281px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.service__up, .service__down {
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 30px;
+  transition: top 0.3s ease;
+}
+
+.service__up {
+  position: relative;
+  top: 0;
+}
+
+.service__down {
+  position: absolute;
+  top: 100%;
+  font-size: 15px;
+  font-weight: 300;
+  color: #ffffff;
+  padding: 0 12px 0 20px;
+  background: rgba(81, 81, 81, 0.45);
 }
 
 .service1 {
